@@ -68,4 +68,4 @@ then you can use the test context::
     @celery.task
     def hello():
         with app.test_request_context() as request:
-            print('Hello {0!r}.format(request))
+            print('Hello {0!r}'.format(request))
